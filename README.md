@@ -98,6 +98,68 @@ Algunos de los lenguajes de programación Orientados a Objetos son:
 * **OMT**: Object Modeling Techniques. Es una metodolosía para el análisis orientado a objetos. 
 * **UML**: Unified Modeling Language o Lenguaje de Modelado Unificado. Tomó las bases y técnicas de OMT unificándolas. Tenemos más opciones de diagramas como lo son Clases, Casos de Uso, Objetos, Actividades, Iteración, Estados, Implementación. 
 
+# ¿Qué es UML?
+
+UML Significa **Unified Modeling Language**, el cual es un lenguaje estándar de modelado de sistemas orentados a objetos. 
+
+<p align="center"><img width=30% src="./pictures/uml_logo.webp"></p>
+
+Esto significa que se puede obtener una manera gráfica de representar una situación. A continuación se presentan los elementos que se pueden utilizar para hacer estas representaciones. 
+
+Las **Clases** se representan así, 
+
+<p align="center"><img width=30% src="./pictures/clases.webp"></p>
+
+En la parte superior se colocan los atributos o propiedades, y debajo las operaciones de la clase. El primer caracter con el que empiezan es un símbolo. Este denotará la visibilidad del atributo o método, esto es un término que tiene que ver con Encapsulamiento.
+
+Los niveles de visibilidad son: 
+
+* (-) private
+* (+) public
+* (#) protected
+* (~) default
+
+Una forma de representar las relaciones que tendrá un elemento con otro es através de las flechas en UML, existen varios tipos, estos son los más comunes: 
+
+**Asociación**
+
+<p align="center"><img width=25% src="./pictures/asociacion.webp"></p>
+
+Como su nombre lo indica, significa que cada vez que esté referenciada este tipo de flecha, ese elemento contiene al otro en su definición. La flecha apunta hacia su dependencia. 
+
+<p align="center"><img width=30% src="./pictures/asociacionab.webp"></p>
+
+Por lo tanto, en la figura se muestra que la Clase A está asociada y depende de la Clase B 
+
+**Herencia**
+
+<p align="center"><img width=25% src="./pictures/herencia.webp"></p>
+
+Con este tipo de flecja se está expresando la herencia. La dirección va desde el hijo hasta el padre 
+
+<p align="center"><img width=30% src="./pictures/herenciaab.webp"></p>
+
+La figura muestra que la Clase B hereda de la Clase A
+
+**Agregación**
+
+<p align="center"><img width=25% src="./pictures/agregacion.webp"></p>
+
+Este se parece a la asociación en que un elemento  dependerá del otro, pero en este caso será: Un elemento dependerá de muchos otros. Aquí tomamos como referencia la multiplicidad del elemento. Lo que comúnmente se conocería en Bases de Datos como Relaciones uno a Muchos. 
+
+<p align="center"><img width=30% src="./pictures/agregacionab.webp"></p>
+
+La Clase A contiene varios elementos de la Clase B. Estos últimos son comúnmente representados con listas o colecciones de datos. 
+
+**Composición** 
+
+<p align="center"><img width=25% src="./pictures/composicion.webp"></p>
+
+Es similar al anterior, sólo que su relación es totalmente compenetrada de tal modo que conceptualmente una de estas clases no podría vivir si no existiera la otra. 
+
+<p align="center"><img width=30% src="./pictures/composicionab.webp"></p>
+
+
 
 
 

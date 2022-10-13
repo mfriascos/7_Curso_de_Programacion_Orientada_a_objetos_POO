@@ -203,6 +203,22 @@ A este análisis se le conoce como Abstracción, simplemente consiste en generar
 
 Resumen: Una clase es un molde para generar un objeto y este análisis se llama Abstracción
 
+# Modularidad 
+
+La **modularidad** va muy relacionada con las clases y es un principio de la Programación Orientada a Objetos y va de la mano con el Diseño Modular que significa dividir un sistema en partes pequeñas y estas serán nuestros módulos pudiendo funcionar de manera independiente. 
+
+La **modularidad** de nuestro código nos va a permitir 
+
+* Reutilizar 
+* Evitar colapsos 
+* Hacer nuestro código más mantenible
+* Legibilidad
+* Resolución rápida de Problemas
+
+Una buena práctica es separando las clases en archivos diferentes
+
+<p align="center"><img width=30% src="./pictures/clase.png"></p>
+
 
 
 

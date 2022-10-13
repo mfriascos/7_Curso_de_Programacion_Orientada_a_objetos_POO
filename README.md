@@ -10,6 +10,11 @@
 - [¿Qué Resuelve la Programación Orientada a Objetos?](#¿qué-resuelve-la-programación-orientada-a-objetos)
 - [Paradigma Orientado a Objetos](#paradigma-orientado-a-objetos)
 - [Lenguajes Orientados a Objetos](#lenguajes-orientados-a-objetos)
+- [Diagramas de Modelado](#diagramas-de-modelado)
+- [¿Qué es UML?](#¿qué-es-uml)
+- [Objetos](#objetos)
+- [Abstracción y Clases](#abstracción-y-clases)
+- [Modularidad](#modularidad)
 
 
 # ¿Porqué Aprender Programación Orientada a Objetos?

@@ -224,6 +224,16 @@ Una buena práctica es separando las clases en archivos diferentes
 
 <p align="center"><img width=30% src="./pictures/clase.png"></p>
 
+# Clases en UML y su Sintaxis en Código 
+
+<p align="center"><img width=30% src="./pictures/UML.png"></p>
+
+<p align="center"><img width=30% src="./pictures/class.png"></p>
+
+<p align="center"><img width=30% src="./pictures/methods.png"></p>
+
+
+
 
 
 

@@ -242,6 +242,8 @@ La herencia nos permite crear nuevas clases a partir de otras, se basa en modelo
 
 <p align="center"><img width=40% src="./pictures/herencia.png"></p>
 
+<p align="center"><img width=40% src="./pictures/uberUML.png"></p>
+
 
 
 

@@ -244,7 +244,79 @@ La herencia nos permite crear nuevas clases a partir de otras, se basa en modelo
 
 <p align="center"><img width=40% src="./pictures/uberUML.png"></p>
 
+# Objetos, Método Constructor y su Sintaxis en Código
 
+Los **Objetos** nos ayudan a crear instancia de una clase, el objetivo es el resultado de lo que modelamos , de los parámetros declarados y usaaremos los objetod para que nuestras clases cobren vida. 
+
+Los **Métodos Constructores** dan un estado inicial al objeto y podemos añadirle algunos datos al objeto mediante estos métodos. Los atributos o elementos que pasemos a través del constructor serán los datos mínimos que necesita el objeto para que pueda vivir. 
+
+**Java**
+```Java
+Person juan = new Person();
+```
+**Python**
+```Python
+persona = Person()
+```
+**JavaScript**
+```Javascript
+const person = new Person();
+```
+**PHP**
+```PHP
+$person = new Person();
+```
+**Ruby**
+```Ruby
+persona = Person.new()
+```
+
+Los Paréntesis en OPP representan métodos. Y estos métodos se escriben en mayúscula y tienen el mismo nombre de la clase, a estos se les llama método constructor.
+
+El método constructor se encarga de dar un estado inicial al objeto. Le da una vida en memoria. Además podemos añadirles los datos al objeto a través del método constructor.
+
+De hecho, los datos que le pasaremos a través del constructor serán los datos mínimos que necesita el objeto para que pueda vivir.
+
+Para crear este método constructor lo hacemos:
+
+**Java**
+```Java
+public Person(String name){
+    this.name = name;
+}
+```
+**Python**
+```Python
+def __init__(self,name):
+    self.name = name
+```
+**JavaScript**
+```Javascript
+// A partir de ES6 el constructor se hace dentro de class, así:
+class Square {
+  // Este es el construtor
+  constructor(length) {
+    this.name = 'Square';
+  }
+}
+```
+**PHP**
+```Php
+public function __construct($name) {
+    $this->name = name;
+}
+```
+**Ruby**
+```Ruby
+class Person
+  attr_reader :name
+  
+  # Aquí esta el constructor
+  def initialize(name)
+    @name = name
+  end
+end
+```
 
 
 

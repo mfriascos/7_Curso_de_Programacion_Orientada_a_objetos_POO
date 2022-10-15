@@ -318,6 +318,74 @@ class Person
 end
 ```
 
+# JavaScript Orientado a Objetos, Nuevas Especificaciones
+
+A partir de las nuevas especificaciones del EcmaScript 6 ya podemos declarar una clase con la palabra reservada class, aunque es importante aclarar que estos no dejan de ser prototipos, sino todo lo contrario.
+
+Además tendremos una palabra clave para definir un constructor, y dentro de este estarán las propiedades de nuestra clase definidas listas para inicializarse.
+
+Transcribamos el código JavaScript que generamos en la clase anterior a este nuevo estándar.
+
+La clase Car quedaría así:
+```Javascript
+class Car {
+
+    constructor(license, driver) {
+        this.id;
+        this.license = license;
+        this.driver = driver;
+        this.passenger;
+    }
+
+    printDataCar(){
+        console.log(this.driver)
+        console.log(this.driver.name)
+        console.log(this.driver.document)
+    }
+}
+```
+
+Si quisiéramos declarar un método, en esta nueva sintaxis dejaremos de utilizar la palabra clave *function*.
+
+Ahora veamos a la clase Account:
+```Javascript
+class Account {
+
+    constructor(name,document) {
+        this.id;
+        this.name = name;
+        this.document = document;
+        this.email;
+        this.password;
+    }
+}
+```
+Y para finalizar aquí puedes ver las clases Route y Payment:
+```Javascript
+class Route {
+
+    constructor(){
+        this.id;
+        this.init;
+        this.end;
+    }
+}
+
+class Payment {
+    constructor() {
+        this.id;
+    }
+}
+```
+Notarás que para instanciar un objeto seguiremos usando la palabra clave *new*.
+```Javascript
+var car = new Car("AW456", new Account("Andrés Herrera","QWE234))
+car.passenger = 4;
+car.printDataCar();
+```
+Y los resultados serán los mismos
+
+
 
 
 

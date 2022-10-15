@@ -1,7 +1,12 @@
 class Account {
-    Integer id;
-    String name;
-    String document;
-    String email;
-    String password;
+    Integer id;         //Atributos
+    String name;        //Atributos
+    String document;    //Atributos
+    String email;       //Atributos
+    String password;    //Atributos
+
+    public Account(String name, String document){
+        this.name = name;
+        this.document = document;
+    }
 }

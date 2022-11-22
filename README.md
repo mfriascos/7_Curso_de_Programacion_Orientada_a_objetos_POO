@@ -15,6 +15,10 @@
 - [Objetos](#objetos)
 - [Abstracción y Clases](#abstracción-y-clases)
 - [Modularidad](#modularidad)
+- [¿Qué es la Herencia?](#¿qué-es-la-herencia)
+- [Objetos, Método constructor y su Sintaxis en Código](#objetos-método-constructor-y-su-sintaxis-en-código)
+- [Javascript Orientado a Objetos, Nuevas Especificaciones](#javascript-orientado-a-objetos-nuevas-especificaciones)
+
 
 
 # ¿Porqué Aprender Programación Orientada a Objetos?
@@ -385,6 +389,24 @@ car.printDataCar();
 ```
 Y los resultados serán los mismos
 
+# Aplicando Herencia en Lenguaje Java y PHP 
+
+```Java
+// Java
+class Student extends Person
+```
+```Python
+# Python
+class Student(Person)
+```
+```Javascript
+// JavaScript
+student.prototype = new Person()
+```
+```php
+// PHP
+class Student extends Person
+```
 
 
 
